@@ -79,6 +79,31 @@ export default function Login() {
                             สมัครสมาชิก
                         </Link>
                     </p>
+
+                    <div className="max-w-xl mx-auto mt-10 bg-white border rounded-xl shadow p-2">
+
+                        <h3 className="text-lg font-semibold mb-4">
+                            บัญชีสำหรับทดลองใช้งาน
+                        </h3>
+
+                        <div className="space-y-4">
+
+                            <div>
+                                <p className="text-red-600 font-semibold">สถานะ: Admin</p>
+                                <p>Email: test@gmail.com</p>
+                                <p>Password: 123456</p>
+                            </div>
+
+                            <div>
+                                <p className="text-blue-600 font-semibold">สถานะ: User</p>
+                                <p>Email: pakin@gmail.com</p>
+                                <p>Password: 123456</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
                 </form>
             </div>
         </div>
